@@ -37,6 +37,51 @@ Cách thêm thư viện trong Maven: https://www.jetbrains.com/help/idea/work-wi
 ## API
 https://www.weatherapi.com/api-explorer.aspx
 
+## Json Example
+```
+{
+    "location": {
+        "name": "London",
+        "region": "City of London, Greater London",
+        "country": "United Kingdom",
+        "lat": 51.52,
+        "lon": -0.11,
+        "tz_id": "Europe/London",
+        "localtime_epoch": 1670419016,
+        "localtime": "2022-12-07 13:16"
+    },
+    "current": {
+        "last_updated_epoch": 1670418900,
+        "last_updated": "2022-12-07 13:15",
+        "temp_c": 5.0,
+        "temp_f": 41.0,
+        "is_day": 1,
+        "condition": {
+            "text": "Partly cloudy",
+            "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+            "code": 1003
+        },
+        "wind_mph": 5.6,
+        "wind_kph": 9.0,
+        "wind_degree": 280,
+        "wind_dir": "W",
+        "pressure_mb": 1021.0,
+        "pressure_in": 30.15,
+        "precip_mm": 0.0,
+        "precip_in": 0.0,
+        "humidity": 75,
+        "cloud": 25,
+        "feelslike_c": 2.4,
+        "feelslike_f": 36.2,
+        "vis_km": 10.0,
+        "vis_miles": 6.0,
+        "uv": 2.0,
+        "gust_mph": 8.7,
+        "gust_kph": 14.0
+    }
+}
+```
+
 ## Architecture
 ![Untitled drawio](https://user-images.githubusercontent.com/38499139/206187786-02b358d0-509d-478f-bfa1-7d445a2091d6.png)
 - `Location` và `Weather` là những Model dựa vào cấu trúc json trả về từ API
