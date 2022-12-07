@@ -7,6 +7,7 @@ yêu bé ❤️
 gson là thư viện dùng để chuyển từ json sang object trong java
 ```
 https://mvnrepository.com/artifact/com.google.code.gson/gson
+
 Cách thêm thư viện trong Maven: https://www.jetbrains.com/help/idea/work-with-maven-dependencies.html
 
 ## Setup Project
